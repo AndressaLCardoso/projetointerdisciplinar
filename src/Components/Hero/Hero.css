@@ -1,6 +1,6 @@
 .hero {
     height: 100vh;
-    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    background: linear-gradient(180deg, #6ADF9C, #e1ffea22 60%);
     display: flex;
 }
 
@@ -30,6 +30,8 @@
     display: flex;
     align-items: center;
     gap: 20px;
+ 
+    
 }
 
 .hero-hand-icon img {
@@ -51,9 +53,15 @@
     font-weight: 500;
 }
 
-.hero-right {
+.hero-right img{  
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: center;
+    max-width:1200px;
+    max-height:650px;
+    width: auto;
+    height: auto;
+   
 }
+
